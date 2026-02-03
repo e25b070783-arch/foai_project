@@ -1,5 +1,14 @@
 import { useState } from "react";
-import { ChevronDown, MapPin, Phone, Mail, Facebook, Instagram, Twitter, Coffee } from "lucide-react";
+import {
+  ChevronDown,
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Instagram,
+  Twitter,
+  Coffee,
+} from "lucide-react";
 
 export default function Index() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -258,7 +267,10 @@ export default function Index() {
       </section>
 
       {/* Menu Section */}
-      <section id="menu" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section
+        id="menu"
+        className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-white"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 animate-slide-up">
             <h2 className="text-4xl sm:text-5xl font-bold font-playfair text-cafe-brown mb-4">
@@ -324,7 +336,10 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-cafe-beige">
+      <section
+        id="about"
+        className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-cafe-beige"
+      >
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="text-6xl text-center">☕</div>
@@ -333,10 +348,15 @@ export default function Index() {
                 About BrewHaven
               </h2>
               <p className="text-lg font-lora text-foreground mb-4 leading-relaxed">
-                We're a student-run café born from a passion for quality coffee and community. Founded by a group of dedicated college students, BrewHaven started as a simple idea: create a space where students could gather, study, and enjoy exceptional coffee.
+                We're a student-run café born from a passion for quality coffee
+                and community. Founded by a group of dedicated college students,
+                BrewHaven started as a simple idea: create a space where
+                students could gather, study, and enjoy exceptional coffee.
               </p>
               <p className="text-lg font-lora text-foreground mb-6 leading-relaxed">
-                What began in a small corner has grown into a beloved campus staple. We believe in sustainability, support local suppliers, and pour love into every cup we serve.
+                What began in a small corner has grown into a beloved campus
+                staple. We believe in sustainability, support local suppliers,
+                and pour love into every cup we serve.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
@@ -389,7 +409,10 @@ export default function Index() {
       </section>
 
       {/* Location & Contact Section */}
-      <section id="contact" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section
+        id="contact"
+        className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-white"
+      >
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 animate-slide-up">
             <h2 className="text-4xl sm:text-5xl font-bold font-playfair text-cafe-brown mb-4">
